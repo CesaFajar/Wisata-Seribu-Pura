@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/budaya/layout,_N_T_/budaya/page,_N_T_/budaya"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/46f5fc768f63d30400b1327c4985fc2b032a592218590da81ba321428526c9b9/$/budaya",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/budaya/page"
+    },
+    "isFallback": false
+  }
+}

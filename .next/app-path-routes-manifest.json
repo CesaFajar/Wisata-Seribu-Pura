@@ -1,0 +1,8 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/budaya/page": "/budaya",
+  "/destinasi/page": "/destinasi",
+  "/login/page": "/login",
+  "/page": "/",
+  "/destinasi/[slug]/page": "/destinasi/[slug]"
+}
