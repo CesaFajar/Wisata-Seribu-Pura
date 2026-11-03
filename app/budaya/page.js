@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Flower2, ArrowRight } from "lucide-react";
-export default function CulturePage() {
- return <main className="container-page py-20"><p className="eyebrow">Bali culture & heritage</p><h1 className="mt-3 text-4xl font-extrabold">Kenali Budaya Bali</h1><p className="mt-4 max-w-2xl leading-7 text-stone-600">Budaya Bali tumbuh dari tradisi, seni, upacara, dan kehidupan masyarakatnya. Kenali keunikannya, lalu nikmati perjalanan dengan tetap menghormati adat setempat.</p><div className="mt-10 grid gap-5 md:grid-cols-3">{[["Tradisi & Upacara","Mengenal berbagai tradisi dan upacara yang menjadi bagian dari kehidupan masyarakat Bali.","https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=900&q=80"],["Pura & Tempat Suci","Memahami fungsi pura serta etika yang perlu diperhatikan saat berkunjung.","https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"],["Seni & Kesenian","Mengenal tarian, kerajinan, dan karya seni yang diwariskan lintas generasi.","https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80"]].map(x=><article key={x[0]} className="overflow-hidden rounded-2xl border border-stone-200 bg-white"><div className="image-cover h-56" style={{backgroundImage:`url(${x[2]})`}}/><div className="p-6"><Flower2 className="text-forest"/><h2 className="mt-3 text-xl font-bold">{x[0]}</h2><p className="mt-2 text-sm leading-6 text-stone-600">{x[1]}</p></div></article>)}</div><Link href="/destinasi" className="mt-9 inline-flex items-center gap-2 font-semibold text-forest">Jelajahi destinasi <ArrowRight size={16}/></Link></main>
+import CulturePage from "@/components/pages/CulturePage";
+
+export default function Page() {
+  return <CulturePage />;
 }

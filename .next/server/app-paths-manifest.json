@@ -1,8 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/budaya/page": "app/budaya/page.js",
-  "/destinasi/page": "app/destinasi/page.js",
-  "/login/page": "app/login/page.js",
+  "/profile/page": "app/profile/page.js",
   "/page": "app/page.js",
-  "/destinasi/[slug]/page": "app/destinasi/[slug]/page.js"
+  "/login/page": "app/login/page.js",
+  "/destinasi/page": "app/destinasi/page.js",
+  "/destinasi/[slug]/page": "app/destinasi/[slug]/page.js",
+  "/budaya/page": "app/budaya/page.js"
 }
